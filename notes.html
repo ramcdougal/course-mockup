@@ -1,0 +1,77 @@
+<!doctype html>
+
+<html>
+    <!--
+        Course website mockup
+
+        Simplified BSD license; see license.txt
+
+        Robert A. McDougal
+        March 30, 2020
+    -->
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>An introduction to Topic 1</title>
+        <script
+            src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>        
+        <link
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" 
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" 
+            crossorigin="anonymous"></script>
+        <style>
+            .coursemodule {
+                border: 1px black solid;
+                padding: 1em;
+                margin-top: 0.5em;
+                margin-bottom: 0.5em;
+            }
+            .page-footer {
+                position: fixed;
+                background-color: black;
+                color: white !important;
+                bottom: 0em;
+                width: 100vw;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container" id="maindiv">
+            <h1>
+                <a href="index.html">Course name goes here</a>
+            </h1>
+            <h3>
+                An introduction to Topic 1
+            </h3>
+            <br/><br/>
+            <p>
+                Many words might go here explaining things, but then after that something
+                extra-interesting will happen. "What?" you ask. Well, it turns out that by
+                using words, we can prepare people to see what things might look like in code.
+                For example, here is what happens when we embed a thing:
+            </p>
+            <script src="http://gist-it.appspot.com/http://github.com/ramcdougal/course-mockup/blob/master/code/graph.py?footer=no"></script>
+            <p>
+                The nice thing about doing it this way is that any changes that appear in the 
+                code folder automatically appear in the document. There's no need to keep things
+                synchronized.
+            </p>
+            <p>
+                That said, if we're doing this for real, it might be better to have our own equivalent
+                of gist-it so that we're not using someone else's resources.
+            </p>
+            <div style="height:5em"></div>
+        </div>
+        <footer class="page-footer font-small">
+            <div class="text-center">
+                This summer course is organized by <a href="#">Group 1</a> and <a href="#">Group 2</a>.
+            </div>
+        </footer>
+    </body>
+</html>
